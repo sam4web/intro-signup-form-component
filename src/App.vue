@@ -1,12 +1,14 @@
 <script>
 import Form from './components/Form.vue';
 import Notification from './components/Notification.vue';
+import Attribution from './components/Attribution.vue';
 
 export default {
   name: 'App',
   components: {
     Form,
     Notification,
+    Attribution,
   },
 };
 </script>
@@ -41,5 +43,6 @@ export default {
       </div>
       <!-- form-container -->
     </section>
+    <Attribution />
   </div>
 </template>
