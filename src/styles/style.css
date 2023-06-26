@@ -4,9 +4,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .input-field {
+    @apply flex-1 w-full outline-none text-lg font-semibold placeholder:font-medium transition placeholder:text-grayish-blue text-dark-blue border-[1px] border-grayish-blue focus:border-dark-blue md:px-6 px-4 md:py-4 py-[14px] rounded-md;
+  }
+  .button {
+    @apply w-full text-center font-medium uppercase text-base bg-primary-green text-white md:py-5 py-4 md:px-3 px-2 rounded-md hover:opacity-70 button-box-shadow transition;
+  }
+  .error-input {
+    @apply border-primary-red border-2;
+  }
+  .error-message {
+    @apply text-right text-primary-red text-sm italic;
+  }
+}
+
+@layer components {
+}
+
 #page-wrapper {
   background: url('../assets/bg-intro-desktop.png'),
     linear-gradient(#ff7a7a, #ff7a7a);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 body {
