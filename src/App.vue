@@ -19,7 +19,7 @@ export default {
     class="w-full md:h-screen h-fit flex items-center py-9"
   >
     <section
-      class="max-w-7xl w-full mx-auto md:px-6 px-3 flex gap-6 md:flex-row flex-col md:items-center"
+      class="max-w-6xl w-full mx-auto md:px-6 px-3 flex gap-6 md:flex-row flex-col md:items-center"
     >
       <div class="flex-1 max-w-2xl w-full mx-auto md:text-left text-center">
         <h1

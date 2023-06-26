@@ -106,6 +106,13 @@
     <!-- /input-field -->
 
     <button type="submit" class="button">Claim your free trial</button>
+
+    <p class="mt-5 font-normal text-sm text-center text-grayish-blue">
+      By clicking the button, you are agreeing to our
+      <a href="#" class="hover:underline text-primary-red font-bold"
+        >Terms and Services</a
+      >
+    </p>
   </form>
 </template>
 
