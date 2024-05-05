@@ -30,7 +30,7 @@ Users should be able to:
 #### Links
 
 - Solution : [Solution URL](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-aIiN0gc8Kt)
-- Live Site : [Live Site URL](https://sam4web.github.io/intro_signup_form_component/)
+- Live Site : [Live Site URL](https://sam4web.github.io/intro-signup-form-component/)
 
 ### Built with
 
